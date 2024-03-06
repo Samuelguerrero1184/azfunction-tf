@@ -1,6 +1,8 @@
 # Definición del provider que ocuparemos
 provider "azurerm" {
-  features {}
+  features {
+
+  }
 }
 
 # Se crea el grupo de recursos, al cual se asociarán los demás recursos
